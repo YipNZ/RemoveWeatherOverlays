@@ -7,18 +7,5 @@
 		<li>1.2</li>
 	</supportedVersions>
 
-	<modDependencies>
-		<!-- <li>
-			<packageId>brrainz.harmony</packageId>
-			<displayName>Harmony</displayName>
-			<downloadUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</downloadUrl>
-			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
-		</li> -->
-	</modDependencies>
-
-	<incompatibleWith>
-		<!-- <li>arvkus.template</li> -->
-	</incompatibleWith>
-
 	<description>Removes Vanilla Weather Overlays for clearer Joris' in Rain, Rainy Thunderstorm, Fog and Foggy Rain. Preview.png by Croebh.</description>
 </ModMetaData>
