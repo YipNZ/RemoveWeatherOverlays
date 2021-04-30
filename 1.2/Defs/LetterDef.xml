@@ -7,6 +7,6 @@
 		<flashInterval>6</flashInterval>
 		<bounce>false</bounce>
 		<arriveSound>LetterArrive_Good</arriveSound>
-		<description>If you can see this letter, then mod template is set up correctly.</description>
+		<description>Weather Overlays should now be removed.</description>
 	</LetterDef>
 </Defs>

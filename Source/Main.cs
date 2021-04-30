@@ -40,7 +40,7 @@ namespace Template
     {
         static Start()
         {
-            Log.Message("Mod WeatherOverlays loaded successfully!");
+            Log.Message("Mod RemoveWeatherOverlays loaded successfully!");
         }
     }
 
