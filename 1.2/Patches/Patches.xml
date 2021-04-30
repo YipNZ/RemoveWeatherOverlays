@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationRemove">
-			    <xpath>/Defs/WeatherDef[defName="Rain"]/overlayClasses</xpath>
-			</li>
+    <Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
 
-		</operations>
-	</Operation>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/WeatherDef[defName = 
+                    "Rain"
+                 or "RainyThunderstorm"
+                 or "Fog"
+                 or "FoggyRain"
+                ]/overlayClasses</xpath>
+            </li>
+
+        </operations>
+    </Operation>
 
 </Patch>
