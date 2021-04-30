@@ -1,3 +1,8 @@
 # Remove Weather Overlays
 
-Learning how to Mod Rimworld
+Removes Weather Overlays for:
+
+- Rain
+- RainyThunderstorm
+- Fog
+- FoggyRain
