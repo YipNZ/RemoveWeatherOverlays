@@ -4,7 +4,18 @@
 
 Removes Weather Overlays for:
 
+Vanilla:
 - Rain
 - RainyThunderstorm
 - Fog
 - FoggyRain
+
+Regrowth Core:
+- RG_Overcast
+- RG_Drizzle
+- RG_Monsoon
+- RG_FoggySnow
+- RG_Blizzard
+- RG_FoggySandstorm
+- RG_SandStorm
+- RG_SandStormHard
