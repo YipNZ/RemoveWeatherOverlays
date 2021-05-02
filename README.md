@@ -2,7 +2,7 @@
 
 ![](https://github.com/YipNZ/RemoveWeatherOverlays/blob/master/About/Preview.png)
 
-Removes Weather Overlays for:
+Quick and Dirty XML Patch to removes Weather Overlays for:
 
 Vanilla:
 - Rain
