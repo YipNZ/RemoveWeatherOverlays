@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>ReGrowth: Core</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+
+			<operations>
+
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/WeatherDef[defName = 
+                        "RG_Overcast"
+                     or "RG_Drizzle"
+                     or "RG_Monsoon"
+                     or "RG_FoggySnow"
+                     or "RG_Blizzard"
+                     or "RG_FoggySandstorm"
+                     or "RG_SandStorm"
+                     or "RG_SandStormHard"
+                        ]/overlayClasses</xpath>
+				</li>
+
+			</operations>
+
+		</match>
+	</Operation>
+
+</Patch>
