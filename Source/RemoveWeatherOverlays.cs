@@ -9,13 +9,17 @@ using Verse;
 namespace yipnz.RemoveWeatherOverlays
 {
     [StaticConstructorOnStartup]
-    public static class OverlayPatcher
+    static class OverlayPatcher
     {
 
-        public static void DoOverlayPatcher()
+        static OverlayPatcher()
         {
+            // Harmony.DEBUG = true;
+
             Log.Message("RemoveWeatherOverlays - Patching Verse.WeatherWorker.DrawOverlays()");
+
             var instance = new Harmony("yipnz.RWO");
+            
             instance.PatchAll();
         }
 
